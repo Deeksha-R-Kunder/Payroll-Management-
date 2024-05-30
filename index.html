@@ -1,0 +1,124 @@
+<!--press SHIFT+!+ENTER to get the boilers code-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Payroll Management</title>
+    <link rel="stylesheet" href="style.css">    <!--linking css script with html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="logo1.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()" style="color:white"></i>
+            
+            <ul>
+                <li><a href="index.html" style="color: rgb(255, 0, 0);">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">FACILITIES</a></li>
+                <li><a href="register.php">SIGNUP/LOGIN</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" style="color:white"></i>
+    </nav>
+<div class="text-box">
+    <h1>MAKE YOUR PASSION YOUR PAYCHECK</h1>
+    <p>Welcome to<br>Payroll Management System!</p>
+    <a href="about.html" class="first-btn">Visit Us To Know More</a>
+</div>  
+    
+</section>
+<!--------registration page------->
+
+
+    
+<!-----facilities--------->
+<section class="course">
+    <h1>Facilities we offer</h1>
+    <p>“Quality is remembered long after the price is forgotten.” </p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Automated Payroll Processing</h3>
+            <p>Say goodbye to manual calculations and paperwork. Our system automates the entire payroll process, from calculating wages and deductions to generating payslips. Save time and reduce errors with our seamless automation.</p>
+        </div>
+        <div class="course-col">
+            <h3>Tax Compliance</h3>
+            <p>We understand the complexities of tax regulations. Our system ensures full compliance with tax laws, automatically calculating taxes, including federal, state, and local taxes. Stay up-to-date and avoid penalties with our tax compliance feature.</p>
+        </div>
+        <div class="course-col">
+            <h3>Direct Deposit and Payment Options</h3>
+            <p>Simplify the payment process with our direct deposit feature. Securely transfer salaries directly to your employees' bank accounts, saving time and reducing administrative costs.</p>
+        </div>
+    </div>
+    
+</section>
+
+<!---------facilities--------->
+<section class="facilities">
+    <h1> Our facilities </h1>
+    <p>where everyday feels like pay day!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="f1.png">
+            <h3>Automated Payroll Processing</h3>
+            <p>Spetialisation under Automated Payroll Processing!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="f2.jpg">
+            <h3>Tax Compliance</h3>
+            <p>Spetialisation under Tax Compliance!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="f3.png">
+            <h3>Direct Deposit and Payment Options</h3>
+            <p>Spetialisation under Direct Deposit and Payment!</p>
+        </div>
+    </div>
+    
+</section>
+<!-----call to action-------->
+<section class="cta">
+    <h1>Contact us for more information!</h1>
+    <a href="" class="first-btn">CONTACT US</a>
+</section>
+
+<!-----footer-------->
+<section class="footer">
+    <h2>About US</h2>
+    <P>Welcome to our payroll management system, where we streamline your payroll processes, making them more efficient, accurate, and reliable.<br> At Deemayee, we understand the complexities involved in managing payroll, and our mission is to simplify it for you.<br> With our user-friendly interface and powerful features, we provide a comprehensive solution for businesses of all sizes.<br>Our system ensures compliance, reduces errors, and saves you valuable time, allowing you to focus on your core business activities.<br>Trust us to handle your payroll needs, so you can concentrate on growing your business. Join us today and experience the ease and effectiveness of our payroll management system.</P>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-envelope"></i>
+        <i class="fa fa-phone-square"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Payroll Management</p>
+    
+</section>
+<!----------JS for toggle menu-------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+        
+</script>  
+
+    
+    
+</body>
+</html>
